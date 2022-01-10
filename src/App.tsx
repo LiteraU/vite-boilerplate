@@ -4,6 +4,7 @@ import { Router } from './router';
 let globalStyles = css`
   :root {
     --color-background: #f2f0f9;
+    --color-title: #6e6893;
   }
 
   *,
