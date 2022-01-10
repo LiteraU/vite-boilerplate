@@ -5,7 +5,7 @@ import FilterIcon from '../../assets/icons/filter-icon.svg';
 export function FilterButton() {
   return (
     <Button>
-      <Icon src={FilterIcon} alt="" />
+      <Icon src={FilterIcon} alt="open the sort menu" />
       <ButtonText>Filter</ButtonText>
     </Button>
   );
