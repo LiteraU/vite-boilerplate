@@ -4,6 +4,7 @@ import { FilterButton } from '../FilterButton';
 import { SearchField } from '../SearchField';
 import { TableTitles } from '../TableTitles';
 import { SingleContact } from '../SingleContact';
+import { Footer } from '../Footer';
 
 export function MainWindow() {
   return (
@@ -14,6 +15,7 @@ export function MainWindow() {
       </FilterAndSearch>
       <TableTitles />
       <SingleContact />
+      <Footer />
     </Window>
   );
 }
