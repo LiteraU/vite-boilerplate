@@ -2,9 +2,7 @@ import styled from '@emotion/styled';
 
 export const TableTitlesWrapper = styled.div`
   display: grid;
-  grid-template-columns:
-    minmax(3%, 7%) minmax(15%, 25%) minmax(20%, 25%)
-    minmax(20%, 25%) minmax(10%, 20%) minmax(5%, 15%);
+  grid-template-columns: 8% 21% 21% 17% 15% 13%;
   align-items: center;
   gap: 10px;
   padding: 13px 20px;
@@ -17,6 +15,9 @@ export const ColumnTitle = styled.div`
   letter-spacing: 0.05em;
   text-transform: uppercase;
   color: #6e6893;
+  &:nth-child(5) {
+    justify-self: end;
+  }
 `;
 
 export const BreadcrumbButton = styled.button`

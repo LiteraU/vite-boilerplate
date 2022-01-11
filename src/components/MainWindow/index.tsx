@@ -3,6 +3,7 @@ import { FilterAndSearch, Window } from './index.styles';
 import { FilterButton } from '../FilterButton';
 import { SearchField } from '../SearchField';
 import { TableTitles } from '../TableTitles';
+import { SingleContact } from '../SingleContact';
 
 export function MainWindow() {
   return (
@@ -12,6 +13,7 @@ export function MainWindow() {
         <SearchField />
       </FilterAndSearch>
       <TableTitles />
+      <SingleContact />
     </Window>
   );
 }
